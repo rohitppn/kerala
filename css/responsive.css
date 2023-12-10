@@ -1,0 +1,436 @@
+/* Sintix - Digital Video Gaming and Consol HTML Template  */
+
+@media only screen and (max-width: 7000px) {
+    .page-wrapper {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 1430px) {
+    .main-header .phone-box {
+        margin-left: 30px;
+    }
+    .main-menu .navigation>li {
+        margin-right: 25px;
+    }
+    .main-header .header-upper .inner-container {
+        padding: 0px 20px;
+    }
+    .banner-section,
+    .page-banner {
+        padding-left: 0;
+    }
+    .featured-games-section .carousel-box {
+        margin-left: 0;
+        max-width: none;
+    }
+    .contact-section-two .upper-row .form-col .inner {
+        padding-left: 30px;
+        margin-right: -50px;
+    }
+}
+
+@media only screen and (max-width: 1340px) {
+    .header-style-two .nav-outer .navigation:nth-child(1)>li {
+        margin-left: 30px;
+    }
+    .header-style-two .nav-outer .navigation:nth-child(2)>li {
+        margin-right: 30px;
+    }
+    .banner-carousel .content-box h2,
+    .fact-counter .count-box,
+    .banner-carousel .content-box .big-title .big-text,
+    .page-banner h1 {
+        font-size: 52px;
+    }
+    .sec-title h2 {
+        font-size: 40px;
+    }
+    .dark-layout .sec-title h2 {
+        font-size: 36px;
+    }
+    .fact-counter-two .count-box {
+        font-size: 42px;
+    }
+    .contact-section-two .upper-row .form-col .inner,
+    .about-section .upper-row .text-col .inner {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .main-header .phone-box {
+        display: none;
+    }
+    .header-style-two .nav-outer .navigation:nth-child(1)>li {
+        margin-left: 20px;
+    }
+    .header-style-two .nav-outer .navigation:nth-child(2)>li {
+        margin-right: 20px;
+    }
+    .banner-carousel .content-box {
+        height: 650px;
+    }
+    .banner-carousel .content-box h2,
+    .banner-carousel .content-box .big-title .big-text,
+    .page-banner h1 {
+        font-size: 42px;
+    }
+    .game-block .text-column .inner {
+        padding: 30px 30px;
+    }
+    .game-block .text-column .title-box h3 {
+        font-size: 26px;
+    }
+    .fact-counter .counter-column .icon-box {
+        font-size: 64px;
+    }
+    .main-footer .newsletter-title h3 {
+        font-size: 24px;
+    }
+    .platofrm-block .p-title .lower-span {
+        font-size: 17px;
+    }
+    .page-banner .banner-inner {
+        padding: 100px 0px;
+    }
+    .about-section-two .mid-row .image-col .inner {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main-menu .navigation>li>ul,
+    .main-menu .navigation>li>ul>li>ul {
+        display: block !important;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-header {
+        position: relative !important;
+        left: 0;
+        top: 0;
+    }
+    .main-header .nav-outer .main-menu,
+    .sticky-header {
+        display: none !important;
+    }
+    .nav-outer .mobile-nav-toggler {
+        display: block;
+    }
+    .header-style-two .lower-inner {
+        min-height: 0;
+    }
+    .header-style-two .lower-inner .logo-box {
+        position: relative;
+        float: left;
+        margin: 0;
+        left: 0;
+        top: 0;
+        padding: 20px 0px;
+        width: auto;
+    }
+    .header-style-two .nav-outer {
+        float: right;
+        width: auto;
+    }
+    .about-section-two .platforms {
+        margin-bottom: 0;
+    }
+    .platofrm-block {
+        min-height: 0;
+    }
+    .about-section .upper-row .title-col .inner,
+    .contact-section-two .upper-row .title-col .inner {
+        padding-right: 0;
+        text-align: left;
+    }
+    .about-section .upper-row:before,
+    .about-section .upper-row:after,
+    .contact-section-two .upper-row:before,
+    .contact-section-two .upper-row:after {
+        display: none;
+    }
+    .about-section .upper-row .text-col .inner,
+    .contact-section-two .upper-row .form-col .inner {
+        padding-left: 0;
+    }
+    .contact-section-two .upper-row .social-links {
+        padding-bottom: 0;
+    }
+    .game-block.image-right .text-column .inner,
+    .game-block.image-left .text-column .inner {
+        margin-right: 0;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .game-block.image-right .text-column,
+    .game-block.image-left .text-column {
+        order: 12;
+    }
+    .game-block.image-right .image-column,
+    .game-block.image-left .image-column {
+        order: 0;
+        margin-bottom: 0;
+    }
+    .featured-games-section .carousel-box .text-column .slide-item {
+        padding: 20px 0px 50px;
+    }
+    .featured-games-section .text-column .owl-theme .owl-nav {
+        bottom: -40px;
+        left: 30px;
+        right: auto;
+    }
+    .featured-games-section .carousel-box .text-column .owl-stage-outer {
+        overflow: hidden;
+    }
+    .featured-games-section .carousel-box .image-column,
+    .featured-games-section .carousel-box .text-column {
+        padding: 0;
+    }
+    .featured-games-section .carousel-box .text-column .slide-item:after {
+        display: none;
+    }
+    .featured-games-section .carousel-box .text-column .content {
+        padding-left: 30px;
+        padding-right: 0;
+    }
+    .news-block .over-box h3 {
+        font-size: 20px;
+    }
+    .main-footer .newsletter-title,
+    .main-footer .newsletter-form {
+        width: 100%;
+    }
+    .banner-two .banner-carousel .slide-item {
+        padding-top: 0;
+    }
+    .banner-carousel .content-box {
+        height: 160px;
+        padding-bottom: 100px;
+    }
+    .banner-section .owl-dots {
+        bottom: 20px;
+    }
+    .banner-section .owl-theme .owl-nav {
+        display: none;
+    }
+    .sec-title h2 {
+        font-size: 32px;
+    }
+    .dark-layout .sec-title h2 {
+        font-size: 30px;
+    }
+    .game-details .info {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sidebar-page-container .content-side {
+        order: 0;
+    }
+    .sidebar-page-container .sidebar-side {
+        order: 12;
+    }
+    .call-to-action h2 {
+        font-size: 42px;
+    }
+    .call-to-action h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-header .header-top .top-right {
+        display: none;
+    }
+    .main-header .header-top .top-left,
+    .main-header .header-top .info {
+        width: 100%;
+        text-align: center;
+    }
+    .main-header .header-top .info li {
+        display: inline-block;
+        float: none;
+        margin: 0px 10px;
+    }
+    .featured-games-section .lower-content:before {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .featured-games-section .lower-content:after {
+        display: none;
+    }
+    .featured-games-section .carousel-box .image-column,
+    .featured-games-section .carousel-box .text-column {
+        width: 100%;
+    }
+    .featured-games-section .carousel-box .text-column .content {
+        padding: 15px 5px;
+        max-width: none;
+    }
+    .featured-games-section .text-column .owl-theme .owl-nav {
+        bottom: -10px;
+        left: 5px;
+    }
+    .reviews-section .carousel-outer {
+        padding-left: 0;
+        text-align: center;
+    }
+    .reviews-section .carousel-outer .thumb-carousel-box {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 0 auto 30px;
+    }
+    .reviews-section .carousel-outer .text-carousel .owl-nav {
+        width: 100%;
+    }
+    .featured-games-section .carousel-box .text-column .title-box h3,
+    .game-block-two .caption-box h3 {
+        font-size: 24px;
+    }
+    .trailer-video-box .over-link .icon {
+        font-size: 36px;
+        line-height: 50px;
+        height: 50px;
+        margin-top: -25px;
+    }
+    .trailer-video-box .over-link .icon:after {
+        display: none;
+    }
+    .call-to-action h2 {
+        font-size: 32px;
+    }
+    .call-to-action h3,
+    .group-title h2,
+    .post-details .lower-box h3,
+    .news-block-two .lower-box h3 {
+        font-size: 24px;
+    }
+    .news-block-two .lower-box {
+        padding: 40px 20px 30px;
+    }
+    .news-block-two .image-box .post-date,
+    .post-details .image-box .post-date {
+        left: 20px;
+    }
+    .call-to-action .big-text,
+    .game-features .feature .feature-title {
+        font-size: 18px;
+    }
+    .game-details .upper .download-links {
+        width: 100%;
+    }
+    .game-details .upper .download-links .link-btn {
+        margin-left: 0;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .game-details .info ul li,
+    .game-details .info ul li:last-child {
+        width: 100%;
+    }
+    .banner-carousel .content-box h2,
+    .banner-carousel .content-box .big-title .big-text,
+    .page-banner h1 {
+        font-size: 36px;
+    }
+    .post-details .text-block {
+        padding: 0px 0px;
+    }
+    .post-details blockquote {
+        padding: 30px 30px 30px 70px;
+    }
+    .post-details blockquote:before {
+        font-size: 24px;
+        left: 20px;
+        top: 30px;
+    }
+    .post-details .lower-row .tags,
+    .post-details .lower-row .share-it {
+        width: 100%;
+    }
+    .comments-area .comment {
+        padding-left: 0;
+    }
+    .comments-area .comment-box .author-thumb {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .comments-area .comment-box .reply-btn {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 20px 0 0;
+    }
+    .search-popup .search-form fieldset input[type="search"] {
+        width: 100%;
+        padding-right: 30px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 7px 7px 0px 0px;
+    }
+    .search-popup .search-form fieldset input[type="submit"],
+    .search-popup .search-form fieldset button {
+        width: 100%;
+        position: relative;
+        right: 0;
+        top: 0;
+        text-align: center;
+        border-radius: 0px 0px 7px 7px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .main-header .header-upper .logo-box {
+        padding-right: 10px;
+    }
+    .main-header .header-upper .logo img,
+    .header-style-two .lower-inner .logo-box img {
+        max-width: 150px;
+    }
+    .main-header .search-btn {
+        display: none;
+    }
+    .main-header .mobile-nav-toggler {
+        margin-top: 24px;
+    }
+    .banner-carousel .content-box h2,
+    .banner-carousel .content-box .big-title .big-text,
+    .page-banner h1,
+    .sec-title h2 {
+        font-size: 30px;
+    }
+    .game-block .text-column .info ul li {
+        width: 100%;
+        text-align: center;
+    }
+    .main-footer .newsletter-form .form-group {
+        padding: 0;
+    }
+    .newsletter-form .form-group .theme-btn {
+        position: relative;
+        display: block;
+        width: 100%;
+        left: 0;
+        top: 0;
+        margin-top: 10px;
+    }
+    .contact-section-two .upper-row li {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .game-block .text-column .download-links .link-btn {
+        width: 100%;
+    }
+}

@@ -1,0 +1,158 @@
+@-webkit-keyframes zoomInStand {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+
+@keyframes zoomInStand {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+
+.game-block .image-column.now-in-view .image img,
+.game-block .inner-box:hover .image img {
+    -webkit-animation-name: zoomInStand;
+    -webkit-animation-duration: 20000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -ms-animation-name: zoomInStand;
+    -ms-animation-duration: 20000ms;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: linear;
+    animation-name: zoomInStand;
+    animation-duration: 20000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.game-block .image-column.now-in-view {
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 700ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -ms-animation-name: fadeInLeft;
+    -ms-animation-duration: 700ms;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    animation-name: fadeInLeft;
+    animation-duration: 700ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.game-block.image-right .image-column.now-in-view {
+    -webkit-animation-name: fadeInRight;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -ms-animation-name: fadeInRight;
+    -ms-animation-duration: 1500ms;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    animation-name: fadeInRight;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.game-block .text-column.now-in-view {
+    -webkit-animation-name: fadeInRight;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -ms-animation-name: fadeInRight;
+    -ms-animation-duration: 1500ms;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    animation-name: fadeInRight;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.game-block.image-right .text-column.now-in-view {
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -ms-animation-name: fadeInLeft;
+    -ms-animation-duration: 1500ms;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    animation-name: fadeInLeft;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.game-details .upper.now-in-view .title-box {
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -ms-animation-name: fadeInLeft;
+    -ms-animation-duration: 1500ms;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    animation-name: fadeInLeft;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.game-details .upper.now-in-view .download-links {
+    -webkit-animation-name: fadeInRight;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -ms-animation-name: fadeInRight;
+    -ms-animation-duration: 1500ms;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    animation-name: fadeInRight;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.game-details .game-features .feature.now-in-view,
+.gallery-item.now-in-view {
+    -webkit-animation-name: fadeInUp;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -ms-animation-name: fadeInUp;
+    -ms-animation-duration: 1500ms;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    animation-name: fadeInUp;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.fact-counter-two .counter-column .inner.now-in-view {
+    -webkit-animation-name: rollIn;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -ms-animation-name: rollIn;
+    -ms-animation-duration: 1500ms;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    animation-name: rollIn;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
